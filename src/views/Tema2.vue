@@ -111,8 +111,12 @@
     separador
     #t_2_2.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
        h2 2.2 Implementación de una red de datos local
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 Arquitectura por capas
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Arquitectura por capas
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
         p(data-aos="fade-right") Antes de intentar organizar nuestras ideas sobre la arquitectura de Internet, busquemos una analogía humana. En realidad, tratamos con sistemas complejos todo el tiempo en nuestra vida cotidiana. Imagínese que alguien le pide que describa, por ejemplo, el sistema de una compañía aérea. ¿Cómo encontraría la estructura para describir este complejo sistema que cuenta con agentes de venta de billetes, revisores de equipaje, personal de puerta de embarque, pilotos, aviones, control de tráfico aéreo y un sistema mundial de encaminamiento de aviones? Una forma de describir este sistema podría ser la serie de acciones que usted realiza (o que otros realizan por usted) cuando vuela en una compañía aérea. Usted compra su billete, factura sus maletas, va a la puerta de embarque y, finalmente, sube al avión. El avión despega y se dirige a su destino. Después de que el avión aterrice, usted desciende en la puerta de embarque y reclama sus maletas. 
@@ -181,8 +185,12 @@
       .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img11.svg', alt='')
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 Capas de protocolo
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Capas de protocolo
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         figure(data-aos="fade-right")
@@ -210,9 +218,9 @@
       p(data-aos="fade-right") La implementación de una capa de protocolo y de red es fundamental para el funcionamiento eficiente y seguro de las comunicaciones en un entorno tecnológico. En este contexto, exploraremos cómo dicha capa puede ser configurada y estructurada para facilitar el flujo de datos y garantizar una conectividad óptima entre dispositivos y redes.
     .row.justify-content-center.align-items-center.mb-5
       AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul3")
-        .row(titulo="Capa de protocolo")
+        .row.ms-5(titulo="Capa de protocolo")
           p Puede implementarse en <i>software</i>, en <i>hardware</i> o en una combinación de ambos. Los protocolos de la capa de aplicación -como HTTP y SMTP- se implementan casi siempre en <i>software</i> en los sistemas finales; lo mismo ocurre con los protocolos de la capa de transporte. Dado que las capas físicas y de enlace de datos son las responsables de gestionar la comunicación a través de un enlace específico, suelen implementarse en una tarjeta de interfaz de red (por ejemplo, tarjetas de interfaz Ethernet o WiFi) asociada a un enlace determinado. 
-        .row(titulo="Capa de red ")
+        .row.ms-5(titulo="Capa de red ")
           p Suele ser una implementación mixta de <i>hardware</i> y <i>software</i>. También hay que tener en cuenta que, al igual que las funciones de la arquitectura de la aerolínea en capas se distribuyen entre los distintos aeropuertos y centros de control de vuelo que conforman el sistema, también un protocolo de capa n se distribuye entre los sistemas finales, los conmutadores de paquetes y otros componentes que conforman la red. Es decir, a menudo hay una parte de un protocolo de capa n en cada uno de estos componentes de la red.
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4.mb-4.mb-lg-0
@@ -220,9 +228,13 @@
           img(src='@/assets/curso/temas/tema2/img15.svg', alt='')
       .col-lg-8
         p(data-aos="fade-left") La estratificación de protocolos tiene ventajas conceptuales y estructurales. La estratificación proporciona una forma estructurada de hablar de los componentes del sistema, mientras que <b style= 'color:#5573C6;'>la modularidad</b> facilita la actualización de los componentes del sistema. Sin embargo, mencionamos que algunos investigadores e ingenieros de redes se oponen vehementemente a la estratificación. Una desventaja potencial de la estratificación es que una capa puede duplicar la funcionalidad de la capa inferior. Por ejemplo, muchas pilas de protocolos proporcionan recuperación de errores tanto por <b style= 'color:#5573C6;'>enlace como de extremo a extremo</b>. Un segundo inconveniente potencial es que la funcionalidad de una capa puede necesitar información (por ejemplo, un valor de marca de tiempo), que solo está presente en otra capa; esto viola el objetivo de la separación de capas.
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 La pila TCP/IP
-    p(data-aos="fade-right") En conjunto, los protocolos de las distintas capas se denominan <b style= 'color:#5573C6;'>pila de protocolos</b>. La pila de protocolos de Internet consta de <b style= 'color:#5573C6;'>cinco capas:</b> <b>la física, la de enlace, la de red, la de transporte y la de aplicación</b>, como se muestra en la imagen La pila TCP/IP. Si examina la tabla de contenido, verá que este componente se ha organizado a grandes rasgos utilizando las capas de la pila de protocolos de Internet. Se adoptó un enfoque descendente, cubriendo primero la capa de aplicación y luego procediendo hacia abajo, tal como se evidencia a continuación:
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 La pila TCP/IP
+    p(data-aos="fade-right") En conjunto, los protocolos de las distintas capas se denominan <b style= 'color:#5573C6;'>pila de protocolos</b>. La pila de protocolos de Internet consta de <b style= 'color:#5573C6;'>cinco capas:</b> <b>la física, la de enlace, la de red, la de transporte y la de aplicación</b>, como se muestra en la imagen la pila TCP/IP. Si examina la tabla de contenido, verá que este componente se ha organizado a grandes rasgos utilizando las capas de la pila de protocolos de Internet. Se adoptó un enfoque descendente, cubriendo primero la capa de aplicación y luego procediendo hacia abajo, tal como se evidencia a continuación:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mt-5
         .bg-fondo3
@@ -287,8 +299,12 @@
                   .col-lg-5
                     figure
                       img(src='@/assets/curso/temas/tema2/img20.svg', alt='', style="width: 400px").m-auto
-    .row.bg-titulo4.align-items-center.p-2.mb-3(data-aos="fade-lwft")
-      h3.mb-3.mt-2 Configuración de una red de dos computadores
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Configuración de una red de dos computadores
     h5.text-center.mb-5 Los siguientes pasos se desarrollan en el simulador Packet Tracer.
     .row.justify-content-center.align-items-center.mb-3
       .col-3.col-lg-1(data-aos="fade-right")
@@ -370,8 +386,12 @@
         .col-lg-10
           .tarjeta.tarjeta-gris-degrade.p-4(data-aos="fade-up")
             p.text-center Entre los tipos de medios de transmisión para redes, se encuentran los siguientes:
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 Ethernet
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Ethernet
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
         .cajon.cajon-amarillo.p-4(data-aos="flip-up")
@@ -389,8 +409,12 @@
                 span Conexión por ethernet
               figure
                 img(src='@/assets/curso/temas/tema2/img30.svg', alt='Figura que representa el proceso de conexión por ethernet, en el cual los usuarios de Ethernet utilizan cable de cobre de par trenzado para conectarse a un conmutador Ethernet.')
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 WiFi
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 WiFi
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
         .cajon.color-primario.p-4.mb-3(data-aos="flip-up")
@@ -409,16 +433,24 @@
       .col-lg-6
         .cajon.cajon-color-amarillo.p-4(data-aos="flip-up")
           p.mb-0 Muchos hogares combinan el acceso residencial de banda ancha (es decir, módems de cable o DSL) con la económica tecnología LAN inalámbrica para crear potentes redes domésticas.
-    .row.bg-titulo4.align-items-center.p-2.mb-3(data-aos="fade-lwft")
-      h3.mb-3.mt-2 Acceso inalámbrico de área amplia
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Acceso inalámbrico de área amplia
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         p(data-aos="fade-right") Cuando se accede a Internet a través de la tecnología LAN inalámbrica, normalmente hay que estar a unas decenas de metros del punto de acceso. Esto es factible para el acceso en casa, en una cafetería y, en general, dentro y alrededor de un edificio. <b style= 'color:#5573C6;'>¿Pero qué pasa si estás en la playa, en un autobús o en tu coche y necesitas acceso a Internet?</b> Para este tipo de acceso de área amplia, los usuarios de Internet en itinerancia utilizan la infraestructura de la telefonía celular, accediendo a estaciones base que se encuentran hasta a decenas de kilómetros de distancia. Las empresas de telecomunicaciones han hecho enormes inversiones en la llamada tercera generación inalámbrica (3G), que proporciona una conexión inalámbrica de área amplia con <b style= 'color:#5573C6;'>conmutación de paquetes</b>. Acceso a Internet a velocidades superiores a 1 Mbps. Hoy en día, millones de usuarios utilizan estas redes para leer y enviar correos electrónicos, navegar por la red y descargar música mientras se desplazan.
       .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img33.svg', alt='')
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 WiMAX
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 WiMAX
     .row.justify-content-center.align-items-center
       .col-lg-7
         figure(data-aos="fade-right")

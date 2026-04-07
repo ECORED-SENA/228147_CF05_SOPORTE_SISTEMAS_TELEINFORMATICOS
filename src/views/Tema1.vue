@@ -58,7 +58,7 @@
         p(data-aos="fade-left") <b>Una analogía humana.</b> Probablemente sea más fácil entender la noción de un protocolo de red informática considerando primero algunas analogías humanas, ya que los humanos ejecutamos protocolos todo el tiempo. Piensa en lo que haces cuando quieres preguntarle a alguien la hora del día. En la <b>Figura 2</b>, se muestra un intercambio típico. El protocolo humano (o los buenos modales, por lo menos) dicta que primero se ofrece un saludo (el primer "Hola" de la Figura 2) para iniciar la comunicación con otra persona. La respuesta típica a un "Hola" es un mensaje de respuesta <b style= 'color:#5573C6;'>"Hola"</b>. Implícitamente, se toma la respuesta de un "Hola" cordial como una indicación de que se puede continuar y preguntar la hora del día. Una respuesta diferente al "Hola" inicial (como "¡No me molestes!" o "No hablo español", o alguna respuesta impresentable) podría indicar una falta de voluntad o incapacidad para comunicarse. En este caso, el protocolo humano sería no preguntar la hora.
         p(data-aos="fade-left") A veces no se obtiene ninguna respuesta a una pregunta, en cuyo caso se suele renunciar a preguntar la hora a esa persona. Hay que tener en cuenta que en <b>nuestro protocolo humano</b> hay mensajes específicos que enviamos y acciones específicas que realizamos en respuesta a los mensajes de respuesta recibidos u otros eventos <b style= 'color:#5573C6;'>(como la falta de respuesta en un tiempo determinado)</b>. Está claro que los mensajes transmitidos y recibidos, y las acciones que se llevan a cabo cuando se envían o reciben estos mensajes o se producen otros eventos, desempeñan un papel central en un protocolo humano. 
     .cajon.color-acento-contenido.p-4.mb-5(data-aos="flip-up")
-      p.mb-0 Si las personas ejecutan protocolos diferentes (por ejemplo, si una persona tiene modales, pero la otra no, o si una entiende el concepto de tiempo y la otra no) los protocolos no inter operan y no se puede realizar ningún trabajo útil. Lo mismo ocurre en las redes: se necesitan dos (o más) entidades comunicantes que ejecuten el mismo protocolo para realizar una tarea.
+      p.mb-0 Si las personas ejecutan protocolos diferentes (por ejemplo, si una persona tiene modales, pero la otra no, o si una entiende el concepto de tiempo y la otra no), los protocolos no interoperan y no se puede realizar ningún trabajo útil. Lo mismo ocurre en las redes: se necesitan dos (o más) entidades comunicantes que ejecuten el mismo protocolo para realizar una tarea.
     .row.mb-5(data-aos="flip-left")
       .col-12
         .p-4.bg-c1
@@ -76,8 +76,12 @@
       .col-10.col-lg-5
         figure
           img(src='@/assets/curso/temas/tema1/img8.svg', alt='')
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 Protocolos de red
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Protocolos de red
     p.mb-5(data-aos="fade-right") Un protocolo de red es similar a un protocolo humano, salvo que las entidades que intercambian mensajes y realizan acciones son componentes de <b style= 'color:#5573C6;'><i>hardware</i> o <i>software</i></b> de algún dispositivo (por ejemplo, computador, teléfono móvil, <i>router</i> u otro dispositivo con capacidad de red). Toda actividad en Internet que implique a dos o más entidades remotas en comunicación se rige por un protocolo. A continuación, se invita ver el siguiente ejemplo:
     .bg-fondo2
       .row.justify-content-center.align-items-center.mb-5
@@ -125,9 +129,13 @@
             p(data-aos="fade-right") Teniendo en cuenta los ejemplos humanos y de redes anteriores, el intercambio de mensajes y las acciones realizadas cuando se envían y reciben estos mensajes son los elementos clave que definen un protocolo: 
         .cajon.cajon-amarillo.p-4.mb-3(data-aos="flip-up")
           p.mb-0 Un protocolo define el formato y el orden de los mensajes que se intercambian entre dos o más entidades comunicantes, así como las acciones que se llevan a cabo cuando se transmite o se recibe un mensaje u otro evento.
-        p(data-aos="fade-left") Internet, y las redes informáticas en general, hacen un amplio uso de los protocolos. Se utilizan distintos protocolos para realizar diferentes tareas de comunicación. A medida que vaya leyendo este componente, aprenderá que algunos protocolos son simples y sencillos, mientras que otros son complejos e intelectualmente profundos. Dominar el campo de las redes informáticas equivale a comprender <b>el qué, el por qué y el cómo</b> de los protocolos de red.
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 El borde de la red
+        p(data-aos="fade-left") Internet y las redes informáticas en general hacen un amplio uso de los protocolos. Se utilizan distintos protocolos para realizar diferentes tareas de comunicación. A medida que vaya leyendo este componente, aprenderá que algunos protocolos son simples y sencillos, mientras que otros son complejos e intelectualmente profundos. Dominar el campo de las redes informáticas equivale a comprender <b>el qué, el porqué y el cómo</b> de los protocolos de red.
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 El borde de la red
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-8.mb-4.mb-lg-0
         p(data-aos="fade-right") Anteriormente, hemos presentado una visión general de alto nivel de Internet y de los protocolos de trabajo en red. Ahora vamos a profundizar un poco más en <b style= 'color:#5573C6;'>los componentes de una red informática (y de Internet, en particular)</b>. En esta parte comenzaremos por el extremo de la red y veremos los componentes con los que estamos más familiarizados, es decir, los computadores, teléfonos móviles y otros dispositivos que utilizamos a diario.
@@ -142,7 +150,7 @@
       .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img14.svg', alt='')
-    p.mb-5(data-aos="fade-right") Los sistemas finales de Internet incluyen computadores de mesa (por ejemplo, PC de mesa, Mac y equipos Linux), servidores (por ejemplo, servidores web y de correo electrónico) y computadores móviles (por ejemplo, computadores portátiles y teléfonos con conexiones inalámbricas a la red). Además, cada vez hay más dispositivos alternativos que se conectan a Internet como sistemas finales. En la siguiente Figura se puede observar un ejemplo:
+    p.mb-5(data-aos="fade-right") Los sistemas finales de Internet incluyen computadores de mesa (por ejemplo, PC de mesa, Mac y equipos Linux), servidores (por ejemplo, servidores web y de correo electrónico) y computadores móviles (por ejemplo, computadores portátiles y teléfonos con conexiones inalámbricas a la red). Además, cada vez hay más dispositivos alternativos que se conectan a Internet como sistemas finales. En la siguiente figura se puede observar un ejemplo:
     .row.mb-4(data-aos="flip-left")
       .col-12
         .p-4.bg-c1
@@ -166,8 +174,12 @@
       .col-lg-5
         .tarjeta-gris1.p-3.px-5(data-aos="fade-left")
           p Hoy en día, no todas las aplicaciones de Internet consisten en programas cliente puros que interactúan con programas servidor puros. Cada vez más, muchas aplicaciones son aplicaciones <b style= 'color:#5573C6;'>peer-to-peer (P2P)</b>, en las que los sistemas finales interactúan y ejecutan programas que realizan funciones tanto de cliente como de servidor. Por ejemplo, en las aplicaciones de intercambio de archivos P2P <b>(como BitTorrent y eMule)</b>, el programa del sistema final del usuario actúa como cliente cuando solicita un archivo a otro par; y el programa actúa como servidor cuando envía un archivo a otro par. En la telefonía por Internet, las dos partes que se comunican interactúan como pares: la sesión de comunicación es simétrica, y ambas partes envían y reciben datos.
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 Redes de acceso
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Redes de acceso
     .row.justify-content-center.align-items-center.mb-4
       .col-2.col-lg-1
         figure
@@ -200,8 +212,12 @@
         .col-lg-10
           .tarjeta.tarjeta-gris-degrade.p-4(data-aos="fade-up")
             p.text-center <b>A continuación, se describe el dimensionamiento de recursos.</b>
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 Llamada telefónica
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Llamada telefónica
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
         .cajon.cajon-amarillo.p-4.mb-3(data-aos="flip-up")
@@ -235,8 +251,12 @@
                 span Acceso por cable telefónico.
               figure
                 img(src='@/assets/curso/temas/tema1/img24.svg', alt='Figura que representa el acceso por cable telefónico, donde se puede apreciar que el PC está conectado a un módem de marcación, que a su vez está conectado a la línea telefónica analógica de la casa.').m-auto
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 DSL
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 DSL
     .row.justify-content-center.align-items-center.mb-4
       .col-2.col-lg-1
         figure
@@ -302,9 +322,9 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul2")
-          .row(titulo="Transmitir y recibir datos")
+          .row.ms-5(titulo="Transmitir y recibir datos")
             p Incluyen velocidades de transmisión más altas, generalmente entre 1 y 2 Mbps para la bajada y entre 128 kbps y 1 Mbps para la subida, lo que lo hace un acceso asimétrico.
-          .row(titulo="Usuarios")
+          .row.ms-5(titulo="Usuarios")
             p El DSL permite a los usuarios hablar por teléfono y acceder a Internet simultáneamente con una conexión permanente "siempre activa" al DSLAM del ISP y a Internet, sin necesidad de marcar un número de teléfono del ISP como en el acceso telefónico.
       .col-10.col-lg-3
         figure
@@ -313,8 +333,12 @@
       p.mb-4(data-aos="fade-right") La velocidad real de transmisión en sentido descendente y ascendente disponible para la residencia es una función de la distancia entre el hogar y la OC, el calibre de la línea de par trenzado y el grado de interferencia eléctrica. Los ingenieros han diseñado expresamente la DSL para distancias cortas entre el hogar y la OC, lo que permite velocidades de transmisión sustancialmente mayores que el acceso telefónico. Para aumentar la velocidad de datos, la DSL se basa en algoritmos avanzados de procesamiento de señales y corrección de errores, lo que puede provocar retrasos elevados en los paquetes. Sin embargo, si el domicilio no está situado a menos de 8 o 10 kilómetros de la OC, la tecnología de procesamiento de señales DSL deja de ser eficaz y el domicilio debe recurrir a una forma alternativa de acceso a Internet.
       .cajon.color-acento-contenido.p-4(data-aos="flip-up")
         p.mb-0 También hay una variedad de tecnologías DSL de mayor velocidad que gozan de penetración en un puñado de países. Por ejemplo, la DSL de muy alta velocidad (VDSL), con mayor penetración hoy en día en Corea del Sur y Japón, ofrece unas impresionantes tasas de 12 a 55 Mbps de bajada y de 1.6 a 20 Mbps de subida. 
-    .row.bg-titulo1.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 Cable
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Cable
     .row.justify-content-center.align-items-center
       .col-10.col-lg-4.mb-4.mb-lg-0
         figure
@@ -341,8 +365,12 @@
       .col-lg-5
         .tarjeta-gris1.p-3.px-5(data-aos="fade-left")
           p Los defensores de la DSL se apresuran a señalar que la DSL es una conexión punto a punto entre el hogar y el ISP y, por lo tanto, toda la capacidad de transmisión del enlace DSL entre el hogar y el ISP es dedicada y no compartida. Los defensores del cable, sin embargo, sostienen que una red HFC de dimensiones razonables proporciona mayores velocidades de transmisión que la DSL. La batalla entre la DSL y la HFC por el acceso residencial de alta velocidad es encarnizada, sobre todo en Norteamérica. En las zonas rurales, donde no están disponibles ni la DSL ni la HFC, se puede utilizar un enlace por satélite para conectar una respuesta a Internet a velocidades superiores a 1 Mbps; StarBand y HughesNet son dos de estos proveedores de acceso por satélite.
-    .row.bg-titulo2.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 Fibra hasta el hogar (FTTH)
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Fibra hasta el hogar (FTTH)
     .row.justify-content-center.align-items-center.mb-3
       .col-2.col-lg-1
         figure

@@ -9,7 +9,7 @@
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="Imagen que muestra síntesis del componente formativo, indicando los aspectos que se relacionan con los recursos de la red de datos en las organizaciones, los cuales son las redes de comunicaciones, los componentes de una red de datos, la conectividad de la red, la estructura de una red de datos y los inventarios de activos de red.")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

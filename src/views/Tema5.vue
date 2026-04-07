@@ -44,14 +44,14 @@
           h5 Escalabilidad sin fisuras
           p La gestión de la red correctamente gobernada impulsará la estandarización entre los puntos finales conectados, los usuarios y los componentes de la red. Esta estandarización facilita el escalado de las redes empresariales según las necesidades y el despliegue de las políticas de red sin fragmentación.
     .row.justify-content-center.align-items-center.mt-4
-      p(data-aos="fade-left") En consecuencia, las herramientas de gestión y supervisión de la red son fundamentales para las funciones de TI de las empresas. Observe  las características clave de estas herramientas que ayudan a conseguir las ventajas mencionadas:
+      p(data-aos="fade-left") En consecuencia, las #[b herramientas de gestión y supervisión de la red] son fundamentales para las funciones de TI de las empresas. Observe  las características clave de estas herramientas que ayudan a conseguir las ventajas mencionadas:
       SlyderF(columnas="col-lg-6").bg1-tema5
         .tarjeta.color-acento-botones.p-4.w_t_s
           .row.justify-content-center.mb-3
             .col-5
               img(src='@/assets/curso/temas/tema5/img5.svg' alt='AvatarTop')
           h5.text-center.txt-c1 Análisis detallados
-          p.text-center.txt-c1 Los análisis y los informes de datos son el núcleo de la supervisión de la red. La herramienta que elija debe evaluar el rendimiento de la red en función de métricas clave como la latencia y la velocidad
+          p.text-center.txt-c1 Los análisis y los informes de datos son el núcleo de la supervisión de la red. La herramienta que elija debe evaluar el rendimiento de la red en función de métricas clave como la latencia y la velocidad.
         .tarjeta.color-acento-botones.p-4.w_t_s
           .row.justify-content-center.mb-3
             .col-5
@@ -227,7 +227,8 @@
                           | Cálculo en tiempo real de las métricas esenciales: niveles totales de inventario por ubicación, inventario disponible/bajo, rotación, días de venta de inventario (DSI), etc.
                         li 
                           i.fas.fa-check-circle
-                          | Generación de informes programados y <i>ad hoc</i> sobre los KPI de inventario (por período, región, ubicación de almacenamiento, etc.).
+                          |
+                          p.mb-0 Generación de informes programados y #[i ad hoc] sobre los KPI de inventario (por período, región, ubicación de almacenamiento, etc.).
                         li 
                           i.fas.fa-check-circle
                           | Plantillas personalizables para informes de inventario, incluyendo discrepancias de inventario, rotación, informes de pedidos pendientes, etc.

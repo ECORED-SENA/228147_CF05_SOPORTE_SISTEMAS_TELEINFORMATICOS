@@ -49,7 +49,7 @@
     .row.justify-content-center
       .col-lg-10
         .cajon.cajon-amarillo.p-4(data-aos="flip-up")
-          p.mb-0 Las topologías lógicas pueden reconfigurarse dinámicamente mediante equipos especiales, como los <i>routers</i>s y los conmutadores.
+          p.mb-0 Las topologías lógicas pueden reconfigurarse dinámicamente mediante equipos especiales, como los <i>routers</i> y los conmutadores.
     separador
     #t_4_1.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
         h2 4.1 Topologías de redes
@@ -123,16 +123,24 @@
                 span Diferentes tecnologías inalámbricas
               figure
                 img(src='@/assets/curso/temas/tema4/img12.svg', alt='Figura que muestra las velocidades de datos soportadas en función del alcance de las comunicaciones para las diferentes tecnologías de comunicaciones móviles e inalámbricas.')
-    .row.bg-titulo4.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 Sistemas de comunicaciones celulares
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Sistemas de comunicaciones celulares
     .row.justify-content-center.align-items-center.mb-5
       .col-10.col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img13.svg', alt='', style="width: 400px").m-auto
       .col-lg-8
         p(data-aos="fade-left") La tecnología celular ha experimentado un largo y exitoso camino de evolución a lo largo de diferentes generaciones (de 1G a 4G), con el objetivo de proporcionar a los usuarios móviles un soporte de velocidad de datos cada vez mayor. Tras la primera generación (1G), de sistemas de comunicaciones móviles, que utilizaban esquemas de transmisión analógicos y no tenían intención de soportar conexiones de datos, la era digital comenzó con la segunda generación (2G). La tecnología dominante en la 2G era el GSM (Global System for Mobile Communications). Originalmente, GSM significaba Groupe Special Mobile, ya que era una iniciativa europea. GSM alcanzó una penetración mundial, mientras que las tecnologías competidoras, como IS-95, cdmaOne o cdma2000, se limitaron sólo a algunos países. GSM utilizaba un ancho de banda de 200 kHz y la velocidad que soportaban las primeras conexiones de datos era de 9,6 kbps.
-    .row.bg-titulo2.align-items-center.p-2.mb-5(data-aos="fade-left")
-      h3.mb-3.mt-2 Tecnologías de corto alcance
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
+      .col
+        h3 Tecnologías de corto alcance
     .row.justify-content-center.align-items-center.mb-5
       p(data-aos="fade-right") Después de las tecnologías celulares, presentamos aquí los conceptos básicos de <i>Bluetooth</i> y Wifi (IEEE802.11). Aunque hay un gran número de otras tecnologías de corto alcance, aquí nos centramos en estas dos tecnologías que se encuentran ampliamente en la mayoría de los dispositivos móviles hoy en día. 
       p(data-aos="fade-left") Aunque <i>Bluetooth</i> sigue siendo la tecnología de comunicación de corto alcance más utilizada en los dispositivos móviles actuales, como teléfonos fijos y <i>smartphones</i>, IEEE 802.11 está ganando terreno en los dispositivos móviles más avanzados, como los <i>smartphones</i>. A continuación, examinaremos la definición de cada una de ellas:
