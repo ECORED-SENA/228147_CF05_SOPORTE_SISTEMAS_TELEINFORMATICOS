@@ -83,7 +83,7 @@
           img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
       .col
         h3 Protocolos de red
-    p.mb-5(data-aos="fade-right") Un protocolo de red es similar a un protocolo humano, salvo que las entidades que intercambian mensajes y realizan acciones son componentes de <b style= 'color:#5573C6;'><i>hardware</i> o <i>software</i></b> de algún dispositivo (por ejemplo, computador, teléfono móvil, <i>router</i> u otro dispositivo con capacidad de red). Toda actividad en Internet que implique a dos o más entidades remotas en comunicación se rige por un protocolo. A continuación, se invita a ver el siguiente ejemplo:
+    p.mb-5(data-aos="fade-right") Un protocolo de red es similar a un protocolo humano, salvo que las entidades que intercambian mensajes y realizan acciones son componentes de <b style= 'color:#5573C6;'><i>hardware</i> o <i>software</i></b> de algún dispositivo (por ejemplo, computador, teléfono móvil, <i>router</i> u otro dispositivo con capacidad de red). Toda actividad en internet que implique a dos o más entidades remotas en comunicación se rige por un protocolo. A continuación, se invita a leer los siguientes ejemplos:
     .bg-fondo2
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10

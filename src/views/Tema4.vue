@@ -165,7 +165,7 @@
     #t_4_3
     .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
       h2 4.3 Pruebas sobre redes inalámbricas
-    p.mb-4(data-aos="fade-right") Para realizar las pruebas sobre redes inalámbricas se utiliza <b style= 'color:#5573C6;'><i>Wireshark</i></b>, que es una aplicación para hacer el monitoreo de paquetes. La prueba consiste en realizar la captura de paquetes TCP cuando se está conectado a internet. La clave es revisar la interfaz de <b>wifi</b>. En la Figura 24 se muestra la interfaz de <i>Wireshark</i>, en donde se realiza la medición sobre WIFI: en0.
+    p.mb-4(data-aos="fade-right") Para realizar las pruebas sobre redes inalámbricas se utiliza Wireshark, que es una aplicación para hacer el monitoreo de paquetes. La prueba consiste en realizar la captura de paquetes TCP cuando se está conectado a internet. La clave es revisar la interfaz de <b>wifi</b>. En la Figura 24 se muestra la interfaz de Wireshark, en donde se realiza la medición sobre WIFI: en0.
     .row.mb-5(data-aos="flip-left")
       .col-12
         .p-4.bg-c1
