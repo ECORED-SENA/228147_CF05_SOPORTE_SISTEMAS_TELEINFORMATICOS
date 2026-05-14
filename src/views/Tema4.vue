@@ -51,8 +51,9 @@
         .cajon.cajon-amarillo.p-4(data-aos="flip-up")
           p.mb-0 Las topologías lógicas pueden reconfigurarse dinámicamente mediante equipos especiales, como los <i>routers</i> y los conmutadores.
     separador
-    #t_4_1.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
-        h2 4.1 Topologías de redes
+    #t_4_1
+    .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+      h2 4.1 Topologías de redes
     p.mb-4(data-aos="fade-right") Existen varias topologías de redes que definen cómo se estructuran y organizan las conexiones entre los dispositivos. Cada topología tiene sus ventajas y desafíos, y la elección adecuada depende de las necesidades específicas de una organización. En este recurso interactivo, exploraremos las siguientes topologías de redes:
     .row.bg-c2
       .col-12
@@ -104,15 +105,16 @@
                       h4 <b style= 'color:#5573C6;'>Árbol</b>
                       p La topología de árbol combina las características de bus y estrella. Tiene un nodo central conectado a varios nodos del nivel inferior mediante enlaces punto a punto. Estos nodos inferiores también están interconectados. La red puede tener múltiples niveles, pero es susceptible a fallos cuando las conexiones superiores fallan. Cada nodo tiene un número fijo de nodos conectados en el siguiente nivel, llamado "factor de ramificación" del árbol.
     separador
-    #t_4_2.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
-       h2 4.2 Redes inalámbricas
+    #t_4_2
+    .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+      h2 4.2 Redes inalámbricas
     .row.justify-content-center.align-items-center.mb-4
       .col-10.col-lg-4.mb-4.mb-lg-0
         figure
           img(src='@/assets/curso/temas/tema4/img11.svg', alt='', style="width: 300px").m-auto
       .col-lg-8
-        p(data-aos="fade-left") Hay muchos tipos de <b style= 'color:#5573C6;'>tecnologías inalámbricas integradas</b> en los dispositivos móviles que podrían utilizarse para construir la nube móvil. La atención se centra en las tecnologías de comunicaciones celulares y de corto alcance. Las tecnologías de comunicaciones móviles e inalámbricas han evolucionado siguiendo diferentes vías de desarrollo, a veces denominadas la vía móvil o celular y la vía inalámbrica, respectivamente. En primer lugar, hablaremos de la trayectoria de la evolución celular, presentando las principales tecnologías representativas de las generaciones de comunicaciones móviles. A continuación, se presentan las tecnologías de redes de área local inalámbricas (WLAN) o Wifi, es decir, diferentes versiones de IEEE802.11 y <i>Bluetooth</i>. 
-        p.mb-0(data-aos="fade-left") La Figura 23, muestra las velocidades de datos soportadas en función del alcance de las comunicaciones para las diferentes tecnologías de comunicaciones móviles e inalámbricas. Se muestran tecnologías 2G como GSM CSD, GPRS, tecnologías 3G como UMTS/HSDPA y tecnologías 4G como WiMAX, LTE, HSPA+ y LTE advanced (LTE-A). Ambas tecnologías, la celular y la de comunicación de corto alcance, pueden utilizarse para construir una nube móvil. Estas <b style= 'color:#5573C6;'>tecnologías trabajan en bandas de frecuencias diferentes</b> y pueden considerarse ortogonales en su uso de frecuencias. Al final de este componente también se examinan las tecnologías futuras en las que la conexión con la superposición y la conexión con los pares cooperativos se encuentran en la misma banda. LTE advanced (LTE- A) es un sistema celular que soporta la comunicación de dispositivo a dispositivo proporcionando los recursos necesarios para la comunicación.
+        p(data-aos="fade-left") Hay muchos tipos de <b style= 'color:#5573C6;'>tecnologías inalámbricas integradas</b> en los dispositivos móviles que podrían utilizarse para construir la nube móvil. La atención se centra en las tecnologías de comunicaciones celulares y de corto alcance. Las tecnologías de comunicaciones móviles e inalámbricas han evolucionado siguiendo diferentes vías de desarrollo, a veces denominadas la vía móvil o celular y la vía inalámbrica, respectivamente. En primer lugar, hablaremos de la trayectoria de la evolución celular, presentando las principales tecnologías representativas de las generaciones de comunicaciones móviles. A continuación, se presentan las tecnologías de redes de área local inalámbricas (WLAN) o wifi, es decir, diferentes versiones de IEEE802.11 y <i>Bluetooth</i>. 
+        p.mb-0(data-aos="fade-left") La Figura 23, muestra las velocidades de datos soportadas en función del alcance de las comunicaciones para las diferentes tecnologías de comunicaciones móviles e inalámbricas. Se muestran tecnologías 2G como GSM CSD, GPRS, tecnologías 3G como UMTS/HSDPA y tecnologías 4G como WiMAX, LTE, HSPA+ y LTE advanced (LTE—A). Ambas tecnologías, la celular y la de comunicación de corto alcance, pueden utilizarse para construir una nube móvil. Estas <b style= 'color:#5573C6;'>tecnologías trabajan en bandas de frecuencias diferentes</b> y pueden considerarse ortogonales en su uso de frecuencias. Al final de este componente también se examinan las tecnologías futuras en las que la conexión con la superposición y la conexión con los pares cooperativos se encuentran en la misma banda. LTE advanced (LTE—A) es un sistema celular que soporta la comunicación de dispositivo a dispositivo proporcionando los recursos necesarios para la comunicación.
     .row.mb-5(data-aos="flip-left")
       .col-12
         .p-4.bg-c1
@@ -142,7 +144,7 @@
       .col
         h3 Tecnologías de corto alcance
     .row.justify-content-center.align-items-center.mb-5
-      p(data-aos="fade-right") Después de las tecnologías celulares, presentamos aquí los conceptos básicos de <i>Bluetooth</i> y Wifi (IEEE802.11). Aunque hay un gran número de otras tecnologías de corto alcance, aquí nos centramos en estas dos tecnologías que se encuentran ampliamente en la mayoría de los dispositivos móviles hoy en día. 
+      p(data-aos="fade-right") Después de las tecnologías celulares, presentamos aquí los conceptos básicos de <i>bluetooth</i> y wifi (IEEE802.11). Aunque hay un gran número de otras tecnologías de corto alcance, aquí nos centramos en estas dos tecnologías que se encuentran ampliamente en la mayoría de los dispositivos móviles hoy en día. 
       p(data-aos="fade-left") Aunque <i>Bluetooth</i> sigue siendo la tecnología de comunicación de corto alcance más utilizada en los dispositivos móviles actuales, como teléfonos fijos y <i>smartphones</i>, IEEE 802.11 está ganando terreno en los dispositivos móviles más avanzados, como los <i>smartphones</i>. A continuación, examinaremos la definición de cada una de ellas:
     TabsB.color-primario
       .py-4.py-md-5(titulo="<i>Bluetooth</i>" :icono="require('@/assets/curso/temas/tema4/img14.svg')")
@@ -151,7 +153,7 @@
             figure
               img(src='@/assets/curso/temas/tema4/img15.svg', alt='', style="width: 400px").m-auto
           .col-lg-7
-            p Es una tecnología de radio que opera en la banda de 2,4 GHz. Se suele denominar tecnología de <b style= 'color:#5573C6;'>comunicación de corto alcance</b>, ya que el rango de comunicación es relativamente pequeño en comparación con los sistemas celulares. El alcance de la comunicación viene determinado por la clase de potencia del módulo <b style= 'color:#5573C6;'><i>Bluetooth</i></b>. Existen tres clases diferentes de <i>Bluetooth</i>: <b>clase 1, clase 2 y clase 3.</b> Los dispositivos de clase 1 pueden tener un alcance de comunicación de hasta 100 metros, mientras que los de clase 2 y 3 están limitados a 10 metros o menos de un metro, respectivamente. La mayoría de los dispositivos móviles son de clase 2, mientras que los puntos de acceso <i>Bluetooth</i> son de clase 1. Los sistemas <i>Bluetooth</i> se componen de una parte de radio/banda base y una pila de <i>software.</i>
+            p Es una tecnología de radio que opera en la banda de 2,4 GHz. Se suele denominar tecnología de <b style= 'color:#5573C6;'>comunicación de corto alcance</b>, ya que el rango de comunicación es relativamente pequeño en comparación con los sistemas celulares. El alcance de la comunicación viene determinado por la clase de potencia del módulo <b style= 'color:#5573C6;'><i>Bluetooth</i></b>. Existen tres clases diferentes de <i>Bluetooth</i>: <b>clase 1, clase 2 y clase 3.</b> Los dispositivos de clase 1 pueden tener un alcance de comunicación de hasta 100 metros, mientras que los de clase 2 y 3 están limitados a 10 metros o menos de un metro, respectivamente. La mayoría de los dispositivos móviles son de clase 2, mientras que los puntos de acceso <i>Bluetooth</i> son de clase 1. Los sistemas <i>bluetooth</i> se componen de una parte de radio/banda base y una pila de <i>software.</i>
       .py-4.py-md-5(titulo="IEEE 802.11" :icono="require('@/assets/curso/temas/tema4/img16.svg')")
         .row.justify-content-center.align-items-center       
           .col-lg-5.mb-4.mb-lg-0
@@ -160,9 +162,10 @@
           .col-lg-7
             p Es un conjunto de estándares para redes inalámbricas de corto alcance (WLAN). Se basa en un protocolo de acceso al medio y diferentes implementaciones de la capa física. Inicialmente, contaba con tres formas de realización: <b style= 'color:#5573C6;'>dispersión de secuencia directa (DS), salto de frecuencia (FH) e infrarrojo difuso (IR)</b>. La tecnología DS prevaleció por su simplicidad, ofreciendo velocidades de datos de 1 o 2 Mbps en la banda de 2.4 GHz. Luego, se introdujo 802.11b con velocidades de hasta 11 Mbps. Se pueden utilizar tres canales ortogonales para evitar interferencias con los vecinos. Cuando la banda de 2.4 GHz se saturó, llegó IEEE 802.11a en la banda de 5 GHz, con hasta 12 canales y 54 Mbps. Además, 802.11a utiliza OFDM para mayor eficiencia espectral. Se introdujo 802.11g para usar OFDM también en la banda de 2.4 GHz, aprovechando sus ventajas sobre DS.
     separador
-    #t_4_3.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
-       h2 4.3 Pruebas sobre redes inalámbricas
-    p.mb-4(data-aos="fade-right") Para realizar las pruebas sobre redes inalámbricas se utiliza <b style= 'color:#5573C6;'><i>wireShark</i></b>, que es una aplicación para hacer el monitoreo de paquetes. La prueba consiste en realizar la captura de paquetes TCP cuando se está conectado a internet. La clave es revisar la interfaz de <b>wifi</b>. En la Figura 24 se muestra la interfaz de <i>wireShark</i>, en donde se realiza la medición sobre WIFI: en0.
+    #t_4_3
+    .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+      h2 4.3 Pruebas sobre redes inalámbricas
+    p.mb-4(data-aos="fade-right") Para realizar las pruebas sobre redes inalámbricas se utiliza <b style= 'color:#5573C6;'><i>Wireshark</i></b>, que es una aplicación para hacer el monitoreo de paquetes. La prueba consiste en realizar la captura de paquetes TCP cuando se está conectado a internet. La clave es revisar la interfaz de <b>wifi</b>. En la Figura 24 se muestra la interfaz de <i>Wireshark</i>, en donde se realiza la medición sobre WIFI: en0.
     .row.mb-5(data-aos="flip-left")
       .col-12
         .p-4.bg-c1
@@ -187,7 +190,7 @@
       .col-lg-8(data-aos="fade-left")
         .tarjeta-azul2.p-4
           p.mb-0 
-            span.text-white En la Figura 25 se muestra los resultados de la captura de paquetes en una red inalámbrica. El comportamiento es una gráfica que varía, ya que navegar por internet es un proceso aleatorio. En esta prueba se comprueba que la interfaz de Wifi está activa, está recibiendo y transmitiendo paquetes. Las pruebas realizadas con el comando 
+            span.text-white En la Figura 25 se muestran los resultados de la captura de paquetes en una red inalámbrica. El comportamiento es una gráfica que varía, ya que navegar por internet es un proceso aleatorio. En esta prueba se comprueba que la interfaz de wifi está activa, está recibiendo y transmitiendo paquetes. Las pruebas realizadas con el comando 
             | <b style= 'color:#4ADBD1;'>ping </b>
             span.text-white que se efectuaron anteriormente también se pueden realizar sobre la conexión de la red inalámbrica.
     .row(data-aos="fade-left")

@@ -20,8 +20,9 @@
       .col-10.col-lg-11
         p.mb-0(data-aos="fade-right") A continuación, se realiza una descripción de los <b style= 'color:#5573C6;'>componentes de la red de datos</b>, como se hace una implementación entre dos equipos o <i>host</i>, esto se hace a través de una simulación. Para finalizar se describen algunos tipos de medios de transmisión. El objetivo es presentar una visión de cómo es el funcionamiento de una red de datos.
     separador
-    #t_2_1.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
-       h2 2.1 Definición de los componentes de una red de datos
+    #t_2_1
+    .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+      h2 2.1 Definición de los componentes de una red de datos
     .row.justify-content-center.align-items-center
       .col-10.col-lg-4.mb-4.mb-lg-0
         figure
@@ -29,7 +30,7 @@
       .col-lg-8
         .cajon.cajon-amarillo.p-4.mb-3(data-aos="flip-up")
           p.mb-0 Para comprender mejor los requisitos de la conectividad, tenemos que ver más de cerca cómo se conectan los computadores en una red. La conectividad de red se presenta en varios niveles. Estos incluyen el nivel más bajo, donde dos o más computadoras se conectan directamente mediante cables o fibra óptica, y el nivel más alto, donde las redes se extienden a través de múltiples enlaces físicos y nodos, incluyendo conexiones inalámbricas.
-        p(data-aos="fade-left") A veces, un nodo es una pieza más especializada de <i>hardware</i> en lugar de un ordenador, pero pasamos por alto esa distinción a efectos de esta discusión. Los enlaces físicos se limitan a veces a un par de nodos (se dice que un enlace es punto a punto), mientras que en otros casos más de dos nodos pueden compartir un único enlace físico (se dice que un enlace es de acceso múltiple). Los enlaces inalámbricos, como los proporcionados por las redes celulares y las redes Wifi, son una clase cada vez más importante de enlaces de acceso múltiple. A menudo, los enlaces de acceso múltiple tienen un tamaño limitado, tanto en lo que respecta a la distancia geográfica que pueden cubrir como al número de nodos que pueden conectar.
+        p(data-aos="fade-left") A veces, un nodo es una pieza más especializada de <i>hardware</i> en lugar de un ordenador, pero pasamos por alto esa distinción a efectos de esta discusión. Los enlaces físicos se limitan a veces a un par de nodos (se dice que un enlace es punto a punto), mientras que en otros casos más de dos nodos pueden compartir un único enlace físico (se dice que un enlace es de acceso múltiple). Los enlaces inalámbricos, como los proporcionados por las redes celulares y las redes wifi, son una clase cada vez más importante de enlaces de acceso múltiple. A menudo, los enlaces de acceso múltiple tienen un tamaño limitado, tanto en lo que respecta a la distancia geográfica que pueden cubrir como al número de nodos que pueden conectar.
     p.mb-5(data-aos="fade-right") Si las redes de computadores se limitaran a situaciones en las que todos los nodos estuvieran conectados directamente entre sí, a través de un medio físico común, las redes estarían muy limitadas en cuanto al número de ordenadores que podrían conectar, o el número de cables que saldrían de la parte trasera de cada nodo se volvería rápidamente inmanejable y muy costoso. Afortunadamente, la conectividad entre dos nodos no implica necesariamente una conexión física directa entre ellos. Considere el ejemplo siguiente de cómo un conjunto de ordenadores puede estar conectado indirectamente.
     .row.mb-5(data-aos="flip-left")
       .col-12
@@ -84,10 +85,10 @@
         p(data-aos="fade-left") Las <b>redes de conmutación</b> de paquetes suelen utilizar una estrategia denominada de <b style= 'color:#5573C6;'>almacenamiento y reenvío</b>. Como su nombre indica, cada nodo de una red de almacenamiento y reenvío recibe primero un paquete completo a través de algún enlace, lo almacena en su memoria interna y luego lo reenvía completo al siguiente nodo. En cambio, una red de conmutación de circuitos establece primero un circuito dedicado a través de una secuencia de enlaces y luego permite al nodo de origen enviar un flujo de bits a través de este circuito a un nodo de destino. La principal razón para utilizar la conmutación de paquetes en lugar de la conmutación de circuitos en una red informática es la <b style= 'color:#5573C6;'>eficiencia</b>.
         .cajon.color-acento-contenido.p-4(data-aos="flip-up")
           p.mb-0 La nube de la Figura 10, distingue entre los nodos del interior que implementan la red (suelen llamarse conmutadores, y su función principal es <b style= 'color:#5573C6;'>almacenar y reenviar paquetes</b>) y los nodos del exterior de la nube que utilizan la red (suelen llamarse <i>hosts</i>, y <b style= 'color:#5573C6;'>dan soporte a los usuarios y ejecutan programas de aplicación</b>). También hay que tener en cuenta que la nube de la Figura 10, es uno de los iconos más importantes de las redes informáticas. En general, utilizamos una nube para denotar cualquier tipo de red, ya sea un único enlace punto a punto, un enlace de acceso múltiple o una red conmutada. 
-    p.mb-4(data-aos="fade-right") La Figura 10, muestra una segunda forma de conectar indirectamente un conjunto de ordenadores. En esta situación, un conjunto de redes independientes (nubes) están interconectadas para formar una red interna, o internet para abreviar. Adoptamos la convención de Internet de referirnos a una red genérica de redes como Internet con i minúscula, y a la Internet TCP/IP actualmente operativa como Internet con I mayúscula. Un nodo que está conectado a dos o más redes se denomina comúnmente <b style= 'color:#5573C6;'><i>router</i> o puerta de enlace</b>, y desempeña prácticamente el mismo papel que un conmutador: reenvía mensajes de una red a otra. Hay que tener en cuenta que una Internet puede considerarse como otro tipo de red, lo que significa que una Internet puede construirse a partir de una interconexión de redes internas. Así, podemos construir recursivamente redes de tamaño arbitrario interconectando nubes para formar otras más grandes. Se puede argumentar razonablemente que esta idea de interconectar redes muy diferentes fue la innovación fundamental de Internet y que el exitoso crecimiento de Internet hasta alcanzar un tamaño global y miles de millones de nodos fue el resultado de algunas decisiones de diseño muy acertadas por parte de los primeros arquitectos de Internet.
+    p.mb-4(data-aos="fade-right") La Figura 10, muestra una segunda forma de conectar indirectamente un conjunto de ordenadores. En esta situación, un conjunto de redes independientes (nubes) están interconectadas para formar una red interna, o internet para abreviar. Adoptamos la convención de internet de referirnos a una red genérica de redes como internet con i minúscula, y a la Internet TCP/IP actualmente operativa como Internet con I mayúscula. Un nodo que está conectado a dos o más redes se denomina comúnmente <b style= 'color:#5573C6;'><i>router</i> o puerta de enlace</b>, y desempeña prácticamente el mismo papel que un conmutador: reenvía mensajes de una red a otra. Hay que tener en cuenta que una Internet puede considerarse como otro tipo de red, lo que significa que una Internet puede construirse a partir de una interconexión de redes internas. Así, podemos construir recursivamente redes de tamaño arbitrario interconectando nubes para formar otras más grandes. Se puede argumentar razonablemente que esta idea de interconectar redes muy diferentes fue la innovación fundamental de Internet y que el exitoso crecimiento de Internet hasta alcanzar un tamaño global y miles de millones de nodos fue el resultado de algunas decisiones de diseño muy acertadas por parte de los primeros arquitectos de internet.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-        p(data-aos="fade-right") El hecho de que un conjunto de <i>hosts</i> esté conectado directa o indirectamente entre sí no significa que lograr una conectividad de <i>host</i> a <i>host</i>. El último requisito es que cada nodo debe ser capaz de decir <b>con cuál de los otros nodos de la red quiere comunicarse.</b> Esto se hace asignando una dirección a cada nodo. Una <b style= 'color:#5573C6;'>dirección es una cadena de bytes que identifica a un nodo</b>; es decir, la red puede utilizar la dirección de un nodo para distinguirlo de los demás nodos conectados a la red. Cuando un nodo de origen quiere que la red entregue un mensaje a un determinado nodo de destino, especifica la dirección del nodo de destino. Si los nodos emisores y receptores no están conectados directamente, los conmutadores y enrutadores de la red utilizan esta dirección para decidir cómo reenviar el mensaje hacia el destino. El proceso de determinar sistemáticamente cómo reenviar los mensajes hacia el nodo de destino basándose en su dirección se denomina <b style= 'color:#5573C6;'>enrutamiento</b>. Ver Figura 11.
+        p(data-aos="fade-right") El hecho de que un conjunto de <i>hosts</i> esté conectado directa o indirectamente entre sí no significa que se logre una conectividad de <i>host</i> a <i>host</i>. El último requisito es que cada nodo debe ser capaz de decir <b>con cuál de los otros nodos de la red quiere comunicarse.</b> Esto se hace asignando una dirección a cada nodo. Una <b style= 'color:#5573C6;'>dirección es una cadena de bytes que identifica a un nodo</b>; es decir, la red puede utilizar la dirección de un nodo para distinguirlo de los demás nodos conectados a la red. Cuando un nodo de origen quiere que la red entregue un mensaje a un determinado nodo de destino, especifica la dirección del nodo de destino. Si los nodos emisores y receptores no están conectados directamente, los conmutadores y enrutadores de la red utilizan esta dirección para decidir cómo reenviar el mensaje hacia el destino. El proceso de determinar sistemáticamente cómo reenviar los mensajes hacia el nodo de destino basándose en su dirección se denomina <b style= 'color:#5573C6;'>enrutamiento</b>. Ver Figura 11.
       .col-10.col-lg-5
         figure
           img(src='@/assets/curso/temas/tema2/img5.svg', alt='')
@@ -109,8 +110,9 @@
         .bloque-texto-g1__texto.p-4(data-aos="flip-down")
           p.mb-0 En esta introducción al direccionamiento y al encaminamiento se ha supuesto que el nodo origen quiere enviar un mensaje a un solo nodo destino (<b><i>unicast</i></b>). Aunque éste es el escenario más común, también es posible que el nodo fuente quiera difundir un mensaje a todos los nodos de la red. O bien, un nodo fuente puede querer enviar un mensaje a algún subconjunto de los demás nodos pero no a todos, situación que se denomina <b style= 'color:#5573C6;'>multidifusión</b>. Por lo tanto, además de las direcciones específicas de los nodos, otro requisito de una red es que soporte direcciones de <b style= 'color:#5573C6;'>multidifusión y de difusión</b>. 
     separador
-    #t_2_2.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
-       h2 2.2 Implementación de una red de datos local
+    #t_2_2
+    .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+      h2 2.2 Implementación de una red de datos local
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
         figure
@@ -142,7 +144,7 @@
                 img(src='@/assets/curso/temas/tema2/img10.svg', alt='Figura que representa la analogía por capas, de acuerdo al ejemplo previamente dado.').m-auto
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        p(data-aos="fade-up") En la Figura 12, se ha dividido la funcionalidad de las aerolíneas en capas, lo que proporciona un marco en el que podemos hablar de los viajes en avión. Cada capa, combinada con las capas inferiores, implementa alguna funcionalidad, algún servicio. A continuación, se puede observar la función que cumple algunas de ellas:
+        p(data-aos="fade-up") En la Figura 12, se ha dividido la funcionalidad de las aerolíneas en capas, lo que proporciona un marco en el que podemos hablar de los viajes en avión. Cada capa, combinada con las capas inferiores, implementa alguna funcionalidad, algún servicio. A continuación, se puede observar la función que cumplen algunas de ellas:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.mb-3
         .row.justify-content-center.align-items-center
@@ -197,7 +199,7 @@
           img(src='@/assets/curso/temas/tema2/img12.svg', alt='')
       .col-lg-5
         .tarjeta-gris1.p-3.px-5(data-aos="fade-left")
-          p.mt-lg-4 Pero basta de hablar de las compañías aéreas. Centrémonos ahora en los protocolos de red. Para estructurar el diseño de los protocolos de red, los diseñadores de redes organizan los protocolos -y el <i>hardware</i> y el <i>software</i> de red que los implementan- en capas. Cada protocolo pertenece a una de las capas, al igual que cada función de la arquitectura de la aerolínea de la Figura 12 pertenecía a una capa. También nos interesan los servicios que una capa ofrece a la capa superior, el llamado modelo de servicio de una capa. Al igual que en nuestro ejemplo de la aerolínea, cada capa proporciona su servicio:
+          p.mt-lg-4 Pero basta de hablar de las compañías aéreas. Centrémonos ahora en los protocolos de red. Para estructurar el diseño de los protocolos de red, los diseñadores de redes organizan los protocolos —y el <i>hardware</i> y el <i>software</i> de red que los implementan— en capas. Cada protocolo pertenece a una de las capas, al igual que cada función de la arquitectura de la aerolínea de la Figura 12 pertenecía a una capa. También nos interesan los servicios que una capa ofrece a la capa superior, el llamado modelo de servicio de una capa. Al igual que en nuestro ejemplo de la aerolínea, cada capa proporciona su servicio:
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
         .tarjeta-avatar-b.mb-4.mb-lg-0
@@ -241,19 +243,19 @@
           .row.justify-content-center.align-items-center
             .col-lg-6
               .tarjeta.tarjeta-borde-verde3.p-3.mb-2(data-aos="fade-left")
-                h5.text-center.mb-0 Nivel de Aplicación
+                h5.text-center.mb-0 Nivel de aplicación
                 p.text-center.mb-0 HTTP, FTP, POP3, TELNET...
               .tarjeta.tarjeta-borde-amarilla.p-3.mb-2(data-aos="fade-right")
-                h5.text-center.mb-0 Nivel de Transporte
+                h5.text-center.mb-0 Nivel de transporte
                 p.text-center.mb-0 Conexión extremo a extremo y fiabilidad de los datos TCP, UDP
               .tarjeta.tarjeta-borde-morada.p-3.mb-2(data-aos="fade-left")
-                h5.text-center.mb-0 Nivel de Red
+                h5.text-center.mb-0 Nivel de red
                 p.text-center.mb-0 ICMP, IP, ARP, RARP...
               .tarjeta.tarjeta-borde-azul3.p-3.mb-2(data-aos="fade-right")
-                h5.text-center.mb-0 Nivel de Enlace
+                h5.text-center.mb-0 Nivel de enlace
                 p.text-center.mb-0 Direccionamiento físico
               .tarjeta.tarjeta-borde-roja.p-3.mb-2(data-aos="fade-left")
-                h5.text-center.mb-0 Nivel Físico
+                h5.text-center.mb-0 Nivel físico
                 p.text-center.mb-0 Señal y transmisión binaria
     .row.justify-content-center.align-items-center.mb-5
       h4(data-aos="fade-right") Capas de la pila de protocolos de Internet
@@ -377,8 +379,9 @@
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/wHcOILgO_2Y" title="Comunicación de marketing digital" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
-    #t_3_2.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
-       h2 2.3 Tipos de medios de transmisión para redes
+    #t_2_3
+    .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+      h2 2.3 Tipos de medios de transmisión para redes
     .bg-fondo1
       .row.justify-content-center.align-items-center.mb-5
         figure(data-aos="fade-right")
@@ -422,7 +425,7 @@
       .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img31.svg', alt='')
-    p.mb-4(data-aos="fade-left") El acceso a la LAN inalámbrica basado en la tecnología <b>IEEE 802.11</b>, es decir, el <b>Wifi</b>, está ya prácticamente en todas partes: universidades, oficinas comerciales, cafeterías, aeropuertos, hogares e incluso en los aviones. La mayoría de las universidades han instalado estaciones base <b style= 'color:#5573C6;'>IEEE 802.11</b> en todo el campus, lo que permite a los estudiantes enviar y recibir correo electrónico o navegar por Internet desde cualquier lugar del campus. En muchas ciudades, uno puede situarse en la esquina de una calle y estar al alcance de diez o veinte estaciones base. <b style= 'color:#5573C6;'>Muchos hogares combinan el acceso residencial de banda ancha</b> (es decir, módems de cable o DSL) con la económica tecnología LAN inalámbrica para crear potentes redes domésticas. La Figura 17 muestra un esquema de una red doméstica típica. Esta red doméstica se compone de un ordenador portátil itinerante y un PC con cable; una estación base (el punto de acceso sin cables), que se comunica con el PC inalámbrico; un módem por cable, que proporciona acceso de banda ancha a Internet; y un <b style= 'color:#5573C6;'><i>router</i></b>, que interconecta la estación base y el <b>PC fijo con el módem por cable</b>. Esta red permite a los miembros del hogar tener acceso de banda ancha a Internet con un miembro que se desplaza de la cocina al patio trasero y a los dormitorios.
+    p.mb-4(data-aos="fade-left") El acceso a la LAN inalámbrica basado en la tecnología <b>IEEE 802.11</b>, es decir, el <b>wifi</b>, está ya prácticamente en todas partes: universidades, oficinas comerciales, cafeterías, aeropuertos, hogares e incluso en los aviones. La mayoría de las universidades han instalado estaciones base <b style= 'color:#5573C6;'>IEEE 802.11</b> en todo el campus, lo que permite a los estudiantes enviar y recibir correo electrónico o navegar por Internet desde cualquier lugar del campus. En muchas ciudades, uno puede situarse en la esquina de una calle y estar al alcance de diez o veinte estaciones base. <b style= 'color:#5573C6;'>Muchos hogares combinan el acceso residencial de banda ancha</b> (es decir, módems de cable o DSL) con la económica tecnología LAN inalámbrica para crear potentes redes domésticas. La Figura 17 muestra un esquema de una red doméstica típica. Esta red doméstica se compone de un ordenador portátil itinerante y un PC con cable; una estación base (el punto de acceso sin cables), que se comunica con el PC inalámbrico; un módem por cable, que proporciona acceso de banda ancha a Internet; y un <b style= 'color:#5573C6;'><i>router</i></b>, que interconecta la estación base y el <b>PC fijo con el módem por cable</b>. Esta red permite a los miembros del hogar tener acceso de banda ancha a Internet con un miembro que se desplaza de la cocina al patio trasero y a los dormitorios.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6(data-aos="flip-left")
         .titulo-sexto.color-acento-botones.mb-5

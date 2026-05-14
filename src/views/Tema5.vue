@@ -75,10 +75,11 @@
             .col-5
               img(src='@/assets/curso/temas/tema5/img9.svg' alt='AvatarTop')
           h5.text-center.txt-c1 Múltiples interfaces de usuario
-          p.text-center.txt-c1 Permite a profesionales de TI supervisar redes en movimiento, incluso remotamente. Adaptado al trabajo remoto e híbrido, facilita gestión de operaciones mediante el uso de dispositivos móviles como teléfonos inteligentes y tabletas.
+          p.text-center.txt-c1 Permite a profesionales de TI supervisar redes en movimiento, incluso remotamente. Adaptado al trabajo remoto e híbrido, facilita la gestión de operaciones mediante el uso de dispositivos móviles como teléfonos inteligentes y tabletas.
     separador
-    #t_5_1.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
-        h2 5.1 Sistemas de información de inventarios          
+    #t_5_1
+    .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+      h2 5.1 Sistemas de información de inventarios          
     .row.justify-content-center.align-items-center.mb-5
       figure(data-aos="fade-right")
         img(src='@/assets/curso/temas/tema5/bg1.png', alt='Imágen decorativa')    
@@ -100,8 +101,9 @@
                     span Descargar
                     i.fas.fa-file-download
     separador
-    #t_5_2.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
-        h2 5.2 Tipos de bases de datos para inventarios
+    #t_5_2
+    .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+      h2 5.2 Tipos de bases de datos para inventarios
     .row.justify-content-center.align-items-center
       p(data-aos="fade-right") <b style="color: #5573C6">¿Qué es una base de datos de inventario?</b>
       p(data-aos="fade-left") La base de datos de inventario es un depósito centralizado para todos los datos de inventario de una organización. Una base de datos para el sistema de gestión de inventarios permite equilibrar los costos y los riesgos del inventario con las métricas de rendimiento del inventario deseadas. Algunos de ellos son:
@@ -186,7 +188,7 @@
                           | Varias fases de producción (materias primas, productos en curso, productos acabados).
                         li 
                           i.fas.fa-check-circle
-                          | Inventario propio y en consignación (para el comercio minorista, la sanidad, etc.)
+                          | Inventario propio y en consignación (para el comercio minorista, la sanidad, etc.).
                         li 
                           i.fas.fa-check-circle
                           | Alertas sobre el inventario de bajo nivel.

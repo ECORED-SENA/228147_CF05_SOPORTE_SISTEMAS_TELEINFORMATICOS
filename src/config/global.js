@@ -191,7 +191,8 @@ export default {
       referencia:
         'Ilyas, M. (2017). The handbook of ad hoc wireless networks. CRC Press.',
       tipo: 'Libro',
-      link: 'https://doi.org/10.4324/9781420040401',
+      link:
+        'https://web.uettaxila.edu.pk/CMS/SP2012/teAWNms/notes/The.Handbook.of.Adhoc.Wireless.Networks.pdf',
     },
   ],
   glosario: [
@@ -293,15 +294,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del equipo',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -312,25 +313,25 @@ export default {
           nombre: 'Joaquín Fernando Sánchez',
           cargo: 'Experto temático',
           centro:
-            'Regional Norte de Santander - Centro de la industria, la empresa y los servicios',
+            'Centro de la industria, la empresa y los servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Gloria Lida Alzate Suarez',
           cargo: 'Diseñador instruccional',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Asesoría metodológica y pedagógica',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable equipo de desarrollo curricular',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
       ],
     },
@@ -341,25 +342,25 @@ export default {
           nombre: 'Eulises Orduz Amézquita',
           cargo: 'Diseñador web',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Manuel Felipe Echavarría Orozco',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y Producción audiovisual',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -370,20 +371,20 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Leyson Fabian Castaño Pérez',
           cargo:
             'Validación de recursos educativos digitales y vinculación LMS',
           centro:
-            'Regional Distrito Capital - Centro de Gestión de Mercados, Logística y Tecnologías de la Información',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

@@ -20,7 +20,7 @@
             .col-lg-10
               .titulo-sexto.color-acento-botones.mb-5
                 h5 Figura 1.
-                span Aplicaciones en la red datos
+                span Aplicaciones de la red de datos
               figure
                 img(src='@/assets/curso/temas/tema1/img2.svg', alt='Figura que menciona las aplicaciones en la red de datos de internet, las cuales se mencionan debajo de esta imagen.').m-auto
     .row.justify-content-center.align-items-center.mb-5
@@ -43,13 +43,14 @@
       .col-lg-8.mb-4.mb-lg-0
         p(data-aos="fade-right") Supongamos que Alicia quiere enviar una carta a Pedro utilizando el servicio postal. Alicia, por supuesto, no puede simplemente escribir la carta (los datos) y dejarla caer por la ventana. En su lugar, el servicio postal requiere que Alicia ponga la carta en un sobre; escriba el nombre completo, la dirección y el código postal de Pedro en el centro del sobre; selle el sobre; ponga un sello en la esquina superior derecha del sobre; y finalmente, deje caer el <b>sobre en un buzón oficial</b> del servicio postal. Así, el servicio postal tiene su propia <b style= 'color:#5573C6;'>"API del servicio postal"</b>, o conjunto de reglas, que Alicia debe seguir para que el servicio postal entregue su carta a Pedro. De manera similar, Internet tiene una API que el <i>software</i> que envía datos debe seguir para que Internet entregue los datos al <i>software</i> que los recibirá.
         p(data-aos="fade-right") El servicio postal, por supuesto, ofrece más de un servicio a sus clientes. Ofrece entrega urgente, confirmación de recepción, uso ordinario y muchos más servicios. De manera similar, <b>Internet proporciona múltiples servicios a sus aplicaciones.</b> Cuando desarrolle una aplicación de Internet, también deberá elegir uno de los servicios de Internet para su aplicación.
-        p(data-aos="fade-right") Esta descripción de Internet -una infraestructura para proporcionar servicios a las aplicaciones distribuidas- es importante. Cada vez más, los avances en los componentes básicos de Internet están impulsados por las necesidades de las nuevas aplicaciones. Así que es importante tener en cuenta que Internet es una infraestructura en la que se inventan y despliegan constantemente nuevas aplicaciones.
+        p(data-aos="fade-right") Esta descripción de Internet —una infraestructura para proporcionar servicios a las aplicaciones distribuidas— es importante. Cada vez más, los avances en los componentes básicos de Internet están impulsados por las necesidades de las nuevas aplicaciones. Así que es importante tener en cuenta que Internet es una infraestructura en la que se inventan y despliegan constantemente nuevas aplicaciones.
       .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img5.svg', alt='', style="width: 400px").m-auto
     separador
-    #t_1_1.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
-       h2 1.1 Recursos de una red
+    #t_1_1
+    .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+      h2 1.1 Recursos de una red
     .row.justify-content-center.align-items-center.mb-0.mb-lg-4
       .col-10.col-lg-4.mb-4.mb-lg-0
         figure
@@ -72,7 +73,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         p(data-aos="fade-right") Consideremos una segunda analogía humana.
-        p(data-aos="fade-right") Supongamos que estás en una clase universitaria <b style= 'color:#5573C6;'>(una clase de redes informáticas</b>, por ejemplo). El profesor le habla de los prototipos y usted está confundido. El profesor se detiene para preguntar: <b>"¿Hay alguna pregunta?"</b>. (un mensaje que se transmite a todos los alumnos que no están durmiendo y que ellos reciben). <b style= 'color:#5573C6;'>Tú levantas la mano</b> (transmitiendo un mensaje implícito al profesor). Tu profesor te reconoce con <b style= 'color:#5573C6;'>una sonrisa</b>, diciendo <b style= 'color:#5573C6;'>"Sí..."</b> (un mensaje transmitido que te anima a hacer tu pregunta -a los profesores les encanta que les hagan preguntas-), y entonces haces tu pregunta (es decir, transmites tu mensaje a tu profesor). Tu profesor escucha tu pregunta (recibe tu mensaje de pregunta) y responde (te transmite una respuesta). Una vez más, vemos que la transmisión y la recepción de mensajes, así como un conjunto de acciones convencionales que se llevan a cabo cuando se envían y reciben estos mensajes, son el núcleo de este protocolo de preguntas y respuestas.
+        p(data-aos="fade-right") Supongamos que estás en una clase universitaria <b style= 'color:#5573C6;'>(una clase de redes informáticas</b>, por ejemplo). El profesor le habla de los prototipos y usted está confundido. El profesor se detiene para preguntar: <b>"¿Hay alguna pregunta?"</b>. (Un mensaje que se transmite a todos los alumnos que no están durmiendo y que ellos reciben). <b style= 'color:#5573C6;'>Tú levantas la mano</b> (transmitiendo un mensaje implícito al profesor). Tu profesor te reconoce con <b style= 'color:#5573C6;'>una sonrisa</b>, diciendo <b style= 'color:#5573C6;'>"Sí..."</b> (un mensaje transmitido que te anima a hacer tu pregunta —a los profesores les encanta que les hagan preguntas—), y entonces haces tu pregunta (es decir, transmites tu mensaje a tu profesor). Tu profesor escucha tu pregunta (recibe tu mensaje de pregunta) y responde (te transmite una respuesta). Una vez más, vemos que la transmisión y la recepción de mensajes, así como un conjunto de acciones convencionales que se llevan a cabo cuando se envían y reciben estos mensajes, son el núcleo de este protocolo de preguntas y respuestas.
       .col-10.col-lg-5
         figure
           img(src='@/assets/curso/temas/tema1/img8.svg', alt='')
@@ -82,7 +83,7 @@
           img(src="@/assets/curso/temas/tema1/img3.png" style="max-width: 60px").m-auto
       .col
         h3 Protocolos de red
-    p.mb-5(data-aos="fade-right") Un protocolo de red es similar a un protocolo humano, salvo que las entidades que intercambian mensajes y realizan acciones son componentes de <b style= 'color:#5573C6;'><i>hardware</i> o <i>software</i></b> de algún dispositivo (por ejemplo, computador, teléfono móvil, <i>router</i> u otro dispositivo con capacidad de red). Toda actividad en Internet que implique a dos o más entidades remotas en comunicación se rige por un protocolo. A continuación, se invita ver el siguiente ejemplo:
+    p.mb-5(data-aos="fade-right") Un protocolo de red es similar a un protocolo humano, salvo que las entidades que intercambian mensajes y realizan acciones son componentes de <b style= 'color:#5573C6;'><i>hardware</i> o <i>software</i></b> de algún dispositivo (por ejemplo, computador, teléfono móvil, <i>router</i> u otro dispositivo con capacidad de red). Toda actividad en Internet que implique a dos o más entidades remotas en comunicación se rige por un protocolo. A continuación, se invita a ver el siguiente ejemplo:
     .bg-fondo2
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
@@ -101,7 +102,7 @@
                   .col-6.mb-3
                     figure
                       img(src='@/assets/curso/temas/tema1/img10.svg', alt='')
-                  h4.text-center Protocolo control de la congestión
+                  h4.text-center Protocolo de control de la congestión
                   p.text-center En los sistemas finales controlan la velocidad a la que se transmiten los paquetes entre el emisor y el receptor.            
             .col-md-6.col-lg-4.mb-3(data-aos="fade-left")
               .tarjeta.tarjeta--gris.p-4.height-tarjeta
@@ -163,7 +164,7 @@
                 img(src='@/assets/curso/temas/tema1/img15.png', alt='Figura que representa los sistemas finales de la red, los cuales están compuestos por: Host-Sistema Final: Se divide en dos categorías: clientes y servidores. Para ejecutar programas de aplicaciones de navegación web, servidor web y servidor de correo.').m-auto
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
-        p(data-aos="fade-right") En el contexto del <i>software</i> de red, hay otra definición de cliente y servidor. <b style= 'color:#5573C6;'>Un programa cliente</b> es un programa que se ejecuta en un sistema final que solicita y recibe un servicio de un <b style= 'color:#5573C6;'>programa servidor</b> que se ejecuta en otro sistema final. La Web, el correo electrónico, la transferencia de archivos, el acceso remoto, los grupos de noticias y muchas otras aplicaciones populares adoptan el <b>modelo cliente-servidor.</b> Dado que un programa cliente suele ejecutarse en un ordenador y el programa servidor en otro, las aplicaciones de Internet cliente-servidor son, por definición, <b>aplicaciones distribuidas.</b> El programa cliente y el programa servidor interactúan enviándose mensajes a través de Internet. En este nivel de abstracción, los <i>routers</i>, enlaces y otros elementos de Internet sirven colectivamente como <b>una caja negra</b> que transfiere mensajes entre los componentes distribuidos y comunicados de una aplicación de Internet.
+        p(data-aos="fade-right") En el contexto del <i>software</i> de red, hay otra definición de cliente y servidor. <b style= 'color:#5573C6;'>Un programa cliente</b> es un programa que se ejecuta en un sistema final que solicita y recibe un servicio de un <b style= 'color:#5573C6;'>programa servidor</b> que se ejecuta en otro sistema final. La web, el correo electrónico, la transferencia de archivos, el acceso remoto, los grupos de noticias y muchas otras aplicaciones populares adoptan el <b>modelo cliente-servidor.</b> Dado que un programa cliente suele ejecutarse en un ordenador y el programa servidor en otro, las aplicaciones de Internet cliente-servidor son, por definición, <b>aplicaciones distribuidas.</b> El programa cliente y el programa servidor interactúan enviándose mensajes a través de Internet. En este nivel de abstracción, los <i>routers</i>, enlaces y otros elementos de Internet sirven colectivamente como <b>una caja negra</b> que transfiere mensajes entre los componentes distribuidos y comunicados de una aplicación de Internet.
       .col-10.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img16.svg', alt='', style="width: 460px").m-auto
@@ -203,8 +204,9 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img19.svg', alt='Figura que representa una red de acceso, la cual está a nivel nacional, internacional, local o regional, con una red doméstica o empresarial.').m-auto
     separador
-    #t_1_2.titulo-segundo.color-acento-botones(data-aos='fade-up-right')
-       h2 1.2 Dimensionamiento de recursos
+    #t_1_2
+    .titulo-segundo.color-acento-botones(data-aos='fade-up-right')
+      h2 1.2 Dimensionamiento de recursos
     .bg-fondo1
       .row.justify-content-center.align-items-center.mb-5
         figure(data-aos="fade-right")
@@ -376,7 +378,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img3.svg', alt='').img3-tm1
       .col-10.col-lg-11
-        p(data-aos="fade-left") La fibra óptica puede ofrecer velocidades de transmisión mucho mayores que el cable de cobre de par trenzado o el cable coaxial. Algunas empresas de telecomunicaciones locales (en muchos países), que han instalado recientemente fibra óptica desde sus centrales hasta los hogares, ofrecen ahora acceso a Internet de alta velocidad, así como servicios tradicionales de teléfono y televisión a través de las fibras ópticas. En Estados Unidos, Verizon ha sido especialmente agresiva con la FTTH con su servicio FIOS. En Colombia, empresas como ETB, Movistar, tiene la capacidad de instalar fibra óptica como tecnología de acceso.
+        p(data-aos="fade-left") La fibra óptica puede ofrecer velocidades de transmisión mucho mayores que el cable de cobre de par trenzado o el cable coaxial. Algunas empresas de telecomunicaciones locales (en muchos países), que han instalado recientemente fibra óptica desde sus centrales hasta los hogares, ofrecen ahora acceso a Internet de alta velocidad, así como servicios tradicionales de teléfono y televisión a través de las fibras ópticas. En Estados Unidos, Verizon ha sido especialmente agresiva con la FTTH con su servicio FIOS. En Colombia, empresas como ETB y Movistar, tiene la capacidad de instalar fibra óptica como tecnología de acceso.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0
         .cajon.color-acento-contenido.p-4.mb-3(data-aos="flip-up")
